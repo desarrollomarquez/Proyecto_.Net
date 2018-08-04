@@ -1,0 +1,10 @@
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/bin/Debug/netcoreapp2.0/hellocore.deps.json
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/bin/Debug/netcoreapp2.0/hellocore.runtimeconfig.json
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/bin/Debug/netcoreapp2.0/hellocore.runtimeconfig.dev.json
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/bin/Debug/netcoreapp2.0/hellocore.dll
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/bin/Debug/netcoreapp2.0/hellocore.pdb
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/obj/Debug/netcoreapp2.0/hellocore.csproj.CoreCompileInputs.cache
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/obj/Debug/netcoreapp2.0/hellocore.AssemblyInfoInputs.cache
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/obj/Debug/netcoreapp2.0/hellocore.AssemblyInfo.cs
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/obj/Debug/netcoreapp2.0/hellocore.dll
+/home/diego/Documentos/_NET/Proyecto_.Net/hellocore/obj/Debug/netcoreapp2.0/hellocore.pdb
