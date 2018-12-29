@@ -1,0 +1,87 @@
+﻿@model IEnumerable<WebAppMC.Entidad>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CodigoEntidad)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CodigoDane)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FiniFiscal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FfinFiscal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Created_At)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Updated_At)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Entidad2.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ubicacion.Direccion)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nit)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CodigoEntidad)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CodigoDane)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FiniFiscal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FfinFiscal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Created_At)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Updated_At)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Entidad2.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ubicacion.Direccion)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Codigo_Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Codigo_Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Codigo_Id })
+        </td>
+    </tr>
+}
+
+</table>

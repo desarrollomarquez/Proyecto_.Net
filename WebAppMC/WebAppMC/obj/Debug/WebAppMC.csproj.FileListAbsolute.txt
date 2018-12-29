@@ -1,0 +1,201 @@
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\ApplicationInsights.config
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\csc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\vbc.exe
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\VBCSCompiler.exe
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\WebAppMC.dll.config
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\WebAppMC.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\WebAppMC.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Antlr3.Runtime.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\EntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\EntityFramework.SqlServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.Web.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.ApplicationInsights.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Google.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Web.Infrastructure.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Newtonsoft.Json.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Owin.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Helpers.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Mvc.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Optimization.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Razor.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.WebPages.Deployment.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.WebPages.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.WebPages.Razor.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\WebGrease.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.Web.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.ApplicationInsights.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Helpers.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Mvc.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Optimization.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.Razor.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.WebPages.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.WebPages.Deployment.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\System.Web.WebPages.Razor.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Antlr3.Runtime.pdb
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Newtonsoft.Json.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\EntityFramework.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\EntityFramework.SqlServer.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Google.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.Helpers.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.Mvc.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.Optimization.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.Razor.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.WebPages.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\EntityFramework.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\EntityFramework.SqlServer.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\obj\Debug\WebAppMC.csprojResolveAssemblyReference.cache
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\obj\Debug\WebAppMC.dll
+c:\users\usuario\documents\visual studio 2015\Projects\WebAppMC\WebAppMC\obj\Debug\WebAppMC.pdb
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\ApplicationInsights.config
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\csc.exe
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\System.Collections.Immutable.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\System.Reflection.Metadata.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\vbc.exe
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\VBCSCompiler.exe
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\roslyn\VBCSCompiler.exe.config
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\WebAppMC.dll.config
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\WebAppMC.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\WebAppMC.pdb
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Antlr3.Runtime.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\EntityFramework.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\EntityFramework.SqlServer.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.Agent.Intercept.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.DependencyCollector.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.Web.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.WindowsServer.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.ApplicationInsights.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Core.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Cookies.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Facebook.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Google.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.OAuth.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Twitter.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Web.Infrastructure.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Newtonsoft.Json.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Owin.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Helpers.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Mvc.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Optimization.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Razor.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.WebPages.Deployment.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.WebPages.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.WebPages.Razor.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\WebGrease.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.DependencyCollector.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.Web.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AI.WindowsServer.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.ApplicationInsights.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Helpers.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Mvc.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Optimization.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.Razor.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.WebPages.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.WebPages.Deployment.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\System.Web.WebPages.Razor.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Antlr3.Runtime.pdb
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Newtonsoft.Json.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\EntityFramework.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\EntityFramework.SqlServer.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Core.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Facebook.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Cookies.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.OAuth.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Google.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.Twitter.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.Helpers.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.Mvc.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.Optimization.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.Razor.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.WebPages.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\EntityFramework.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\EntityFramework.SqlServer.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.Google.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\obj\Debug\WebAppMC.dll
+D:\REPOSITORIOS\Proyecto_.Net\WebAppMC\WebAppMC\obj\Debug\WebAppMC.pdb

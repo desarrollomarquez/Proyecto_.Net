@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MilenioCloudModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="Dane_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Dane_Id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Municipio" Relationship="Self.FK_MDepartamento" FromRole="Departamento" ToRole="Municipio" />
+  </EntityType>
+  <EntityType Name="Entidad">
+    <Key>
+      <PropertyRef Name="Codigo_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Nit" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodigoEntidad" Type="Int32" Nullable="false" />
+    <Property Name="CodigoDane" Type="Int32" Nullable="false" />
+    <Property Name="FiniFiscal" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FfinFiscal" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Entidad_Padre" Type="Guid" />
+    <Property Name="Ubicacion_Id" Type="Guid" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Entidad1" Relationship="Self.FK_EEntidad_Padre" FromRole="Entidad" ToRole="Entidad1" />
+    <NavigationProperty Name="Entidad2" Relationship="Self.FK_EEntidad_Padre" FromRole="Entidad1" ToRole="Entidad" />
+    <NavigationProperty Name="Ubicacion" Relationship="Self.FK_EUbicacion" FromRole="Entidad" ToRole="Ubicacion" />
+    <NavigationProperty Name="Licencia" Relationship="Self.FK_LEntidad" FromRole="Entidad" ToRole="Licencia" />
+    <NavigationProperty Name="Telefono" Relationship="Self.FK_TEntidad" FromRole="Entidad" ToRole="Telefono" />
+    <NavigationProperty Name="Entidad_Usuario" Relationship="Self.FK_uentidad" FromRole="Entidad" ToRole="Entidad_Usuario" />
+  </EntityType>
+  <EntityType Name="Entidad_Usuario">
+    <Key>
+      <PropertyRef Name="Entidad_Id" />
+      <PropertyRef Name="Usuario_Id" />
+    </Key>
+    <Property Name="Entidad_Id" Type="Guid" Nullable="false" />
+    <Property Name="Usuario_Id" Type="Guid" Nullable="false" />
+    <Property Name="fecha_caducidad" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="Boolean" />
+    <Property Name="Descripcion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Entidad" Relationship="Self.FK_uentidad" FromRole="Entidad_Usuario" ToRole="Entidad" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_cusuario" FromRole="Entidad_Usuario" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Licencia">
+    <Key>
+      <PropertyRef Name="Codigo_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Entidad_Id" Type="Guid" />
+    <Property Name="NumeroLicencia" Type="Int32" Nullable="false" />
+    <Property Name="FiniVigencia" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FfinVigencia" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="Boolean" />
+    <Property Name="CostoLicencia" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Entidad" Relationship="Self.FK_LEntidad" FromRole="Licencia" ToRole="Entidad" />
+  </EntityType>
+  <EntityType Name="Municipio">
+    <Key>
+      <PropertyRef Name="Dane_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Departamento_Id" Type="Int32" Nullable="false" />
+    <Property Name="Dane_Id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Departamento" Relationship="Self.FK_MDepartamento" FromRole="Municipio" ToRole="Departamento" />
+    <NavigationProperty Name="Poblado" Relationship="Self.FK_PMunicipio" FromRole="Municipio" ToRole="Poblado" />
+  </EntityType>
+  <EntityType Name="Poblado">
+    <Key>
+      <PropertyRef Name="Poblado_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Municipio_Id" Type="Int32" Nullable="false" />
+    <Property Name="Poblado_Id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Tipo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Municipio" Relationship="Self.FK_PMunicipio" FromRole="Poblado" ToRole="Municipio" />
+    <NavigationProperty Name="Ubicacion" Relationship="Self.FK_UPoblado" FromRole="Poblado" ToRole="Ubicacion" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="Codigo_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="Boolean" />
+    <Property Name="Descripcion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Usuario_Rol" Relationship="Self.FK_rol" FromRole="Rol" ToRole="Usuario_Rol" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Telefono">
+    <Key>
+      <PropertyRef Name="Codigo_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Entidad_Id" Type="Guid" />
+    <Property Name="Numero" Type="Int32" Nullable="false" />
+    <Property Name="Tipo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Entidad" Relationship="Self.FK_TEntidad" FromRole="Telefono" ToRole="Entidad" />
+  </EntityType>
+  <EntityType Name="Ubicacion">
+    <Key>
+      <PropertyRef Name="Codigo_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Poblado_Id" Type="Int32" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Latitud" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Longitud" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Entidad" Relationship="Self.FK_EUbicacion" FromRole="Ubicacion" ToRole="Entidad" />
+    <NavigationProperty Name="Poblado" Relationship="Self.FK_UPoblado" FromRole="Ubicacion" ToRole="Poblado" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Codigo_Id" />
+    </Key>
+    <Property Name="Codigo_Id" Type="Guid" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PasswordDecrip" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="Boolean" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Entidad_Usuario" Relationship="Self.FK_cusuario" FromRole="Usuario" ToRole="Entidad_Usuario" />
+    <NavigationProperty Name="Usuario_Rol" Relationship="Self.FK_usuario" FromRole="Usuario" ToRole="Usuario_Rol" />
+  </EntityType>
+  <EntityType Name="Usuario_Rol">
+    <Key>
+      <PropertyRef Name="Usuario_Id" />
+      <PropertyRef Name="Rol_Id" />
+    </Key>
+    <Property Name="Usuario_Id" Type="Guid" Nullable="false" />
+    <Property Name="Rol_Id" Type="Guid" Nullable="false" />
+    <Property Name="fecha_caducidad" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Estado" Type="Boolean" />
+    <Property Name="Descripcion" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Created_At" Type="DateTime" Precision="7" />
+    <Property Name="Updated_At" Type="DateTime" Precision="7" />
+    <NavigationProperty Name="Rol" Relationship="Self.FK_rol" FromRole="Usuario_Rol" ToRole="Rol" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_usuario" FromRole="Usuario_Rol" ToRole="Usuario" />
+  </EntityType>
+  <Association Name="FK_MDepartamento">
+    <End Role="Departamento" Type="Self.Departamento" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Municipio" Type="Self.Municipio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="Dane_Id" />
+      </Principal>
+      <Dependent Role="Municipio">
+        <PropertyRef Name="Departamento_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EEntidad_Padre">
+    <End Role="Entidad" Type="Self.Entidad" Multiplicity="0..1" />
+    <End Role="Entidad1" Type="Self.Entidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entidad">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Entidad1">
+        <PropertyRef Name="Entidad_Padre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EUbicacion">
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Entidad" Type="Self.Entidad" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Entidad">
+        <PropertyRef Name="Ubicacion_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LEntidad">
+    <End Role="Entidad" Type="Self.Entidad" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Licencia" Type="Self.Licencia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entidad">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Licencia">
+        <PropertyRef Name="Entidad_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TEntidad">
+    <End Role="Entidad" Type="Self.Entidad" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Telefono" Type="Self.Telefono" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entidad">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Telefono">
+        <PropertyRef Name="Entidad_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_uentidad">
+    <End Role="Entidad" Type="Self.Entidad" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Entidad_Usuario" Type="Self.Entidad_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Entidad">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Entidad_Usuario">
+        <PropertyRef Name="Entidad_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cusuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Entidad_Usuario" Type="Self.Entidad_Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Entidad_Usuario">
+        <PropertyRef Name="Usuario_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PMunicipio">
+    <End Role="Municipio" Type="Self.Municipio" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Poblado" Type="Self.Poblado" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Municipio">
+        <PropertyRef Name="Dane_Id" />
+      </Principal>
+      <Dependent Role="Poblado">
+        <PropertyRef Name="Municipio_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UPoblado">
+    <End Role="Poblado" Type="Self.Poblado" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Poblado">
+        <PropertyRef Name="Poblado_Id" />
+      </Principal>
+      <Dependent Role="Ubicacion">
+        <PropertyRef Name="Poblado_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Usuario_Rol" Type="Self.Usuario_Rol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Usuario_Rol">
+        <PropertyRef Name="Rol_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Usuario_Rol" Type="Self.Usuario_Rol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Codigo_Id" />
+      </Principal>
+      <Dependent Role="Usuario_Rol">
+        <PropertyRef Name="Usuario_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MilenioCloudEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Departamento" EntityType="Self.Departamento" />
+    <EntitySet Name="Entidad" EntityType="Self.Entidad" />
+    <EntitySet Name="Entidad_Usuario" EntityType="Self.Entidad_Usuario" />
+    <EntitySet Name="Licencia" EntityType="Self.Licencia" />
+    <EntitySet Name="Municipio" EntityType="Self.Municipio" />
+    <EntitySet Name="Poblado" EntityType="Self.Poblado" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Telefono" EntityType="Self.Telefono" />
+    <EntitySet Name="Ubicacion" EntityType="Self.Ubicacion" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <EntitySet Name="Usuario_Rol" EntityType="Self.Usuario_Rol" />
+    <AssociationSet Name="FK_MDepartamento" Association="Self.FK_MDepartamento">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Municipio" EntitySet="Municipio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EEntidad_Padre" Association="Self.FK_EEntidad_Padre">
+      <End Role="Entidad" EntitySet="Entidad" />
+      <End Role="Entidad1" EntitySet="Entidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EUbicacion" Association="Self.FK_EUbicacion">
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+      <End Role="Entidad" EntitySet="Entidad" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LEntidad" Association="Self.FK_LEntidad">
+      <End Role="Entidad" EntitySet="Entidad" />
+      <End Role="Licencia" EntitySet="Licencia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TEntidad" Association="Self.FK_TEntidad">
+      <End Role="Entidad" EntitySet="Entidad" />
+      <End Role="Telefono" EntitySet="Telefono" />
+    </AssociationSet>
+    <AssociationSet Name="FK_uentidad" Association="Self.FK_uentidad">
+      <End Role="Entidad" EntitySet="Entidad" />
+      <End Role="Entidad_Usuario" EntitySet="Entidad_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cusuario" Association="Self.FK_cusuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Entidad_Usuario" EntitySet="Entidad_Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PMunicipio" Association="Self.FK_PMunicipio">
+      <End Role="Municipio" EntitySet="Municipio" />
+      <End Role="Poblado" EntitySet="Poblado" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UPoblado" Association="Self.FK_UPoblado">
+      <End Role="Poblado" EntitySet="Poblado" />
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK_rol" Association="Self.FK_rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="Usuario_Rol" EntitySet="Usuario_Rol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_usuario" Association="Self.FK_usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Usuario_Rol" EntitySet="Usuario_Rol" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

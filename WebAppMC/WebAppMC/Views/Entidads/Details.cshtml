@@ -1,0 +1,98 @@
+﻿@model WebAppMC.Entidad
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Entidad</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CodigoEntidad)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CodigoEntidad)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CodigoDane)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CodigoDane)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FiniFiscal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FiniFiscal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FfinFiscal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FfinFiscal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Created_At)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Created_At)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Updated_At)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Updated_At)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Entidad2.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Entidad2.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ubicacion.Direccion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ubicacion.Direccion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Codigo_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
